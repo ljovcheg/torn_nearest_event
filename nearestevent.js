@@ -11,8 +11,8 @@
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @grant        GM_info
-// @downloadURL https://github.com/ljovcheg/torn_nearest_event/blob/main/nearestevent.js
-// @updateURL https://github.com/ljovcheg/torn_nearest_event/blob/main/nearestevent.js
+// @downloadURL https://raw.githubusercontent.com/ljovcheg/torn_nearest_event/refs/heads/main/nearestevent.js
+// @updateURL https://raw.githubusercontent.com/ljovcheg/torn_nearest_event/refs/heads/main/nearestevent.js
 // ==/UserScript==
 
 (function () {
