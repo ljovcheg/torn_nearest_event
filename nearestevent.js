@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         NearestEventTimer
-// @version      1.0.1
+// @version      1.0.2
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       unsafeWindow
@@ -189,7 +189,7 @@
       }
     });
   } else {
-    console.log('DOCUMENT LOADED')
+    implementTimer();
   }
 
 })();
