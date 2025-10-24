@@ -11,6 +11,8 @@
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @grant        GM_info
+// @downloadURL https://github.com/ljovcheg/torn_nearest_event/blob/main/nearestevent.js
+// @updateURL https://github.com/ljovcheg/torn_nearest_event/blob/main/nearestevent.js
 // ==/UserScript==
 
 (function () {
@@ -26,7 +28,7 @@
     padding: 5px;
     }
   `);
-  let apiKey = '' //API HERE GOES HERE FOR THE FIRT TIME;
+  let apiKey = '' //API GOES HERE FOR THE FIRT TIME;
 
   let cached_api = GM_getValue('timer_api_key', null);
   if (console.log('CACHED API', cached_api));
