@@ -14,7 +14,7 @@
 // @downloadURL https://raw.githubusercontent.com/ljovcheg/torn_nearest_event/refs/heads/main/nearestevent.js
 // @updateURL https://raw.githubusercontent.com/ljovcheg/torn_nearest_event/refs/heads/main/nearestevent.js
 // ==/UserScript== 
-
+ 
 (function () {
   'use strict';
   GM_addStyle(`
