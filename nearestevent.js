@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         NearestEventTimer
-// @version      1.0.3
+// @version      1.0.4
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       unsafeWindow
@@ -29,7 +29,7 @@
     }
   `);
   let apiKey = '' //API GOES HERE FOR THE FIRT TIME;
-
+  console.log("TIMER IS HERE")
   let cached_api = GM_getValue('timer_api_key', null);
   console.log('CACHED API', cached_api)
   if (!cached_api){
